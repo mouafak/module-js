@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-flow ">
+        <div class="row">
+            <!-- heading -->
+            <div class="col-12">
+                <h1 class="text-center w-100 py-5 heading">APP MODULE JAVA SCRIPT</h1>
+            </div>
+            <!-- para sub heading -->
+            <div class="col-12 d-flex justify-content-center flex-column"> 
+                <p class="disc text-center pb-5 pl-5 pr-5 pt-0">Enter thes nombers in thes inputs </p>
+            </div>
+            <!-- inputs -->
+            <div class="col-6 d-flex align-items-end flex-column  ">
+                <div class=" justify-content-center d-flex text-center py-2">
+                <label class="px-5 py-2 " for="tentacles">Number  :</label>
+                <input id="num1" class="text-center w-50" type="number"  name="tentacles"
+                    min="0" max="1000">
+                </div>
+
+                <div class=" justify-content-center d-flex text-center py-2">
+                    <label class="px-5 py-2 " for="tentacles">Number :</label>
+                    <input id="num2" class="text-center w-50" type="number"  name="tentacles"
+                        min="0" max="1000">
+                </div>
+            </div> 
+            <!-- inputs -->
+            <div  class="co1-6 d-flex justify-content-center flex-column">
+                <div class=" justify-content-center d-flex text-center py-2">
+                    <label class="px-5 py-2 " for="tentacles">Number :</label>
+                    <input id="num3" class="text-center w-50" type="number"  name="tentacles"
+                        min="0" max="1000">
+                    </div>
+
+                    <div class=" justify-content-center d-flex  text-center py-2">
+                        <label class="px-5 py-2 " for="tentacles">Number :</label>
+                        <input id="num4" class="text-center w-50 " type="number"  name="tentacles"
+                            min="0" max="1000">
+                        </div>
+
+            </div>
+            <div class="col-12 d-flex justify-content-center py-5 ">
+                <a id="submit" class="btn btn-outline-dark  px-5 py-4 w-25 " href="#"> Entrée </a>
+            </div>
+
+            <!-- content javascript -->
+            <div class="col-12 d-flex justify-content-center" >
+               
+                <div class="card mx-1" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title" id="card-title">Thes Somes</h5>
+                      <p class="card-text" id="the-some-para"></p>
+                    </div>
+                  </div>
+
+                  <div class="card " style="width: 18rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Pair Or Impair</h5>
+                        <p class="card-text" id="pp-para"></p>
+                        </div>
+                  </div>
+
+                  <div class="card mx-1" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Min Max</h5>
+                      <p class="card-text" id="min-max-para"></p>
+                    </div>
+                  </div>
+
+
+            </div>
+        </div> <!-- end row-->
+    </div> <!-- end container-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
